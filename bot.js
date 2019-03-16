@@ -1,7 +1,6 @@
-//by revenge ! dont share this code in any discord server !
 const Discord = require('discord.js')
 const client = new Discord.Client()
-const prefix = 'r#'
+const prefix = '#'
 //information about the bot
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -69,7 +68,7 @@ client.on('ready', () => {//new ready event
 })
 
 client.on("message", message => {//new msg event
-  if (message.content === "r#help") {//the help cmd
+  if (message.content === "#help") {//the help cmd
       message.react('🌈')
         let rainembed = new Discord.RichEmbed()//new embed
         //the embed description (help msg)
