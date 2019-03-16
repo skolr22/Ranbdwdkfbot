@@ -31,9 +31,9 @@ client.on('ready', () => {
   console.log('╚[════════════]╝')
   console.log('')
   console.log('╔[════════════]╗')
-  console.log('Created By: Revenge')
+  console.log('Created By: Skolr')
   console.log('╚[════════════]╝')
-client.user.setActivity("r#help | By Revenge",{type: 'WATCHING'});
+client.user.setActivity("#help | By Skolr",{type: 'WATCHING'});
 console.log('Done The Watching Setup Completed')
 	
 });
