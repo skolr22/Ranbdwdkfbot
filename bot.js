@@ -35,7 +35,6 @@ client.on('ready', () => {
   console.log('╚[════════════]╝')
 client.user.setActivity("#help | By Skolr ",{type: 'WATCHING'});
 console.log('Done The Watching Setup Completed')
-	        const emoji = client.emojis.find("name", ":rainbow9109298:")
 
 });
 //Best Rainbow Bot .
@@ -74,7 +73,7 @@ client.on("message", message => {//new msg event
         let rainembed = new Discord.RichEmbed()//new embed
         //the embed description (help msg)
         .setDescription(`**
-=====================:rainbow9109298:.RainbowBot.:rainbow9109298:=====================
+=====================.RainbowBot.=====================
  - لإنشاء رتبة الرينبو وبدا الرينبو
 - To create the role of the Rainbow & Start The Rainbow
 #set 
@@ -86,7 +85,7 @@ client.on("message", message => {//new msg event
 خطوات لو الرتبة م أشتغلت .!!
 1- ضع رتبة الرينبو فوق الالوان أو الرتب الملونه لو فيه
 2- ضع رتبة البوت فوق رتبة الرينبو
-=====================:rainbow9109298:.RainbowBot.:rainbow9109298:=====================
+=====================.RainbowBot.=====================
 **`)
 message.author.sendEmbed(rainembed)//send the embed to the author dm
     }})
